@@ -1,0 +1,39 @@
+/* Font imports, global configs etc*/
+/* Helpful doc https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries#how_to_choose_breakpoints */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+  width: 100%;
+}
+
+section {
+  width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: rgb(134, 133, 133);
+}
+
+hr {
+  margin: 2em 0;
+}

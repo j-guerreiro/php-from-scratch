@@ -1,0 +1,56 @@
+.courses-section .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.courses-section .cards-grid .course-cta {
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: green;
+    width: 80%;
+    margin: 0 2em;
+}
+
+.courses-section .cards-grid .course-cta a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.course-card {
+  margin: 1em;
+}
+
+section.courses-section {
+    width: 90%;
+    margin: 2em auto;
+}
+
+/* mobile */
+@media screen and (max-width: 425px) {
+    .courses-section .cards-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .courses-section .cards-grid .course-cta {
+        width: 80%;
+        margin: 0 1em;
+    }
+
+    .card-inner,
+    img.card-img {
+        margin: 0;
+    }
+
+    .course-card {
+      margin: 1em 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 426px) and (max-width: 768px) {
+    .courses-section .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

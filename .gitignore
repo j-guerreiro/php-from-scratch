@@ -1,0 +1,38 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+logs/
+*.log
+
+# PHP-specific files
+*.cache
+*.php~       # Backup files created by some editors
+*.bak
+*.swp        # Swap files created by some editors
+
+# Composer files (if used in the future, exclude vendor folder)
+vendor/
+
+# Environment files
+.env
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node.js (if tools like npm are used for front-end assets)
+node_modules/
+
+# Storage and uploads
+storage/
+uploads/
+
+# Temporary files
+/tmp/
+
+# Docker based tool
+.ddev
