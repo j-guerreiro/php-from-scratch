@@ -1,6 +1,8 @@
 .courses-section .cards-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
 }
 
 .courses-section .cards-grid .course-cta {
@@ -27,6 +29,10 @@
     border-radius: 10px;
 }
 
+.card-img .add-course {
+    height: 30%;
+}
+
 section.courses-section {
     width: 90%;
     margin: 2em auto;
@@ -46,6 +52,7 @@ section.courses-section {
     .card-inner,
     img.card-img {
         margin: 0;
+        height: 30%;
     }
 
     .course-card {
