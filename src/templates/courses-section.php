@@ -4,7 +4,7 @@
 
 <section class="courses-section">
     <div class="block-title">
-        <h1>MEUS CURSOS</h1>
+        <h1>MY COURSES</h1>
         <hr>
     </div>
 

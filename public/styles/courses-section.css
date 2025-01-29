@@ -5,10 +5,10 @@
 
 .courses-section .cards-grid .course-cta {
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid rgb(55 55 55);
     border-radius: 50px;
     padding: 10px;
-    background-color: green;
+    background-color: rgb(55 55 55);
     width: 80%;
     margin: 0 2em;
 }
@@ -19,7 +19,12 @@
 }
 
 .course-card {
-  margin: 1em;
+    margin: 1em;
+}
+
+.course-card img {
+    height: 40%;
+    border-radius: 10px;
 }
 
 section.courses-section {
@@ -44,8 +49,8 @@ section.courses-section {
     }
 
     .course-card {
-      margin: 1em 0;
-  }
+        margin: 1em 0;
+    }
 }
 
 /* tablet */

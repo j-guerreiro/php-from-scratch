@@ -9,7 +9,7 @@
 <div class="wrapper">
     <header class="main-navigation">
         <nav class="top-nav">
-            <a href="/"><img src="../../images/"></a>
+            <a href="/"><img class="nav-logo" src="../../images/love2learn-logo.webp"></a>
 
             <div class="user-menu">
                 <ul>

@@ -10,7 +10,7 @@
 }
 
 .bottom-stripe {
-    background-color: rgb(168, 168, 162);
+    background-color: rgb(55 55 55);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +21,7 @@
 
 .bottom-stripe p {
     color: #ffff;
+    font-weight: bold;
 }
 
 .footer-social-img,
@@ -37,6 +38,10 @@
 #social,
 #contact {
     font-weight: bold;
+}
+
+.footer-logo {
+    height: 20%;
 }
 
 @media (min-width: 768px) {

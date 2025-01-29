@@ -5,7 +5,7 @@
 <footer class="global-footer">
     <div class="inner-footer">
         <div class="l-block">
-            <img src="../../images/"></img>
+            <img class="footer-logo" src="../../images/love2learn-logo-3.webp"></img>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Repellat, autem quo voluptate perspiciatis mollitia asperiores quia sed.</p>
         </div>

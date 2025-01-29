@@ -11,7 +11,7 @@ class CourseModel
 
     public function getAllCourses()
     {
-        $query = $this->db->query('SELECT * FROM Cursos');
+        $query = $this->db->query('SELECT * FROM Courses');
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
 }
