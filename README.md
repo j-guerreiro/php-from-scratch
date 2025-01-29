@@ -1,4 +1,5 @@
-# PHP FROM SCRATCH - Love 2 Learn - PHP Learning Project
+## PHP FROM SCRATCH 
+### Love 2 Learn - PHP Learning Project
 
 Welcome to my personal coding project! This repository is dedicated to improving my web development skills, with a strong focus on mastering PHP and related technologies. The goal is to become proficient in PHP, understand databases, front-end development, and the MVC architecture, all while building a solid foundation for full-stack web development.
 
@@ -32,24 +33,25 @@ Welcome to my personal coding project! This repository is dedicated to improving
 ## 📂 **Project Structure**
 
 The project will evolve over time, but the initial structure will look something like this:
-root-folder/
-    ├── config
-    │   ├── database
-    │   └── sql
-    ├── public
-    │   ├── images
-    │   ├── scripts
-    │   └── styles
-    ├── src
-    │   ├── actions
-    │   ├── includes
-    │   ├── model
-    │   ├── templates
-    |   ├── views
-    │   └── tests
-    └── vendor
-        └── composer
 
+root-folder/  
+├── config/  
+│   ├── database/  
+│   └── sql/  
+├── public/  
+│   ├── images/  
+│   ├── scripts/  
+│   └── styles/  
+├── src/  
+│   ├── actions/  
+│   ├── includes/  
+│   ├── model/  
+│   ├── templates/  
+│   ├── views/  
+│   └── tests/  
+└── vendor/  
+    └── composer/  
+    
 ---
 
 ## 🚀 **Getting Started**
