@@ -1,4 +1,7 @@
 <?php
+
+namespace Src\Home;
+
 // Main page | Home page
 ?>
 
@@ -18,10 +21,10 @@
 </head>
 
 <body>
-    <?php require_once __DIR__ . '/templates/header.php'; ?>
-    <?php require_once __DIR__ . '/templates/hero.php'; ?>
-    <?php require_once __DIR__ . '/templates/courses-section.php'; ?>
-    <?php require_once __DIR__ . '/templates/footer.php'; ?>
+    <?php require_once __DIR__ . '/template/header.php'; ?>
+    <?php require_once __DIR__ . '/template/hero.php'; ?>
+    <?php require_once __DIR__ . '/template/courses-section.php'; ?>
+    <?php require_once __DIR__ . '/template/footer.php'; ?>
 </body>
 
 </html>

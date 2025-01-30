@@ -1,4 +1,10 @@
 <?php
+
+namespace Config\Database\Connection\Test\Script;
+
+use PDO;
+use PDOException;
+
 /**
  * Test database output by running inside the container:
  * $ php db_test.php

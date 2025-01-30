@@ -1,4 +1,10 @@
 <?php
+
+namespace Config\Database\Connection\Test;
+
+use Dotenv;
+use PDO;
+
 /**
  * Database connection config test file
  * 

@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.bottom-stripe p {
+.bottom-stripe p,a {
     color: #ffff;
     font-weight: bold;
 }

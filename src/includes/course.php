@@ -1,4 +1,10 @@
 <?php
+
+namespace Src\Includes;
+
+use Exception;
+use Src\Model\CourseModel;
+
 // DB configs import
 require_once __DIR__ . '/../../config/database/db_connection.php';
 

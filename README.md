@@ -46,8 +46,8 @@ root-folder/
 │   ├── actions/  
 │   ├── includes/  
 │   ├── model/  
-│   ├── templates/  
-│   ├── views/  
+│   ├── template/  
+│   ├── view/  
 │   └── tests/  
 └── vendor/  
     └── composer/  

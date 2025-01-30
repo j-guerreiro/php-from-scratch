@@ -1,4 +1,8 @@
 <?php
+namespace Src\Model;
+
+use PDO;
+use Exception;
 
 class CourseModel
 {

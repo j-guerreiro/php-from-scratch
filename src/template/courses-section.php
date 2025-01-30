@@ -9,7 +9,7 @@
     </div>
 
     <div class="cards-grid">
-        <?php require_once __DIR__ . '/../views/course-list.php'; ?>
+        <?php require_once __DIR__ . '/../view/course-list.php'; ?>
         <div class="course-card">
             <a href="#">
                 <img class="card-img add-course" src="../../images/add-course.jpg"></img>

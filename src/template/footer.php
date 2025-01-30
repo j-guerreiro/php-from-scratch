@@ -31,6 +31,6 @@
     </div>
 
     <div class="bottom-stripe">
-        <p>Copyright 2025 - All rights reserved</p>
+        <p>Copyright 2025 - All rights reserved - <a href="https://github.com/j-guerreiro">j-guerreiro</a></p>
     </div>
 </footer>

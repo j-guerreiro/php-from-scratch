@@ -1,5 +1,11 @@
 <?php
 
+namespace Config\Database\Connection;
+
+use Dotenv;
+use PDO;
+use PDOException;
+
 // Composer Autoloader and Environment Loader
 require_once __DIR__ . '/../../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);

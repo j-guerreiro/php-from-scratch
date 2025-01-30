@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\View;
+
 /**
  * Course listing view
  */
